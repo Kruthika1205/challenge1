@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-1 {
+    margin-bottom: -130px;
+    margin-top: 30px;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-section-1 {
+    width: 60%;
+    height: 60%;
+    border-radius: 7%;
+}
+
+.heading-section-1 {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.para-section-1 {
+    margin-bottom: 30px;
+}
+
+.shape {
+    background-color: rgb(78, 131, 61);
+    display: inline-block;
+    padding: 16px 32px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.shape:hover {
+    background-color: #398452;
+}
+
+.design-section-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.svg-section-2 {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.svg-icon-section-2 {
+    stroke: #316a44;
+}
+
+.section-3 {
+    display: flex;
+    background-color: #398452;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.feedback-1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.feedback {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.p-1 {
+    display: flex;
+    gap: 10px;
+}
+
+.card-icon {
+    width: 20px;
+    stroke: green;
+    stroke-width: 2px;
+}
+
+.add {
+    display: inline-block;
+    background-color: green;
+    padding: 10px;
+    border-radius: 30px;
+    color: aliceblue;
+    font-size: x-small;
+    margin-left: 20px;
+}
+
+.ad-price {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+.sep-4 {
+    display: wrap;
+    display: inline-block;
+    background-color: rgb(214, 177, 146);
+    box-shadow: 50px;
+    border-radius: 20px;
+
+}
+
+.sep-5 {
+    display: wrap;
+    display: inline-block;
+    background-color: rgb(130, 158, 128);
+    box-shadow: 50px;
+    border-radius: 20px;
+    margin-left: 40px;
+
+
+}
+
+.sep-6 {
+    display: wrap;
+    display: inline-block;
+    background-color: rgb(103, 116, 151);
+    box-shadow: 50px;
+    border-radius: 20px;
+    margin-left: 42.5px;
+    margin-right: 0px;
+}
+
+.top-image {
+    border-top-left-radius: 20px;
+}
